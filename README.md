@@ -1,13 +1,3 @@
----
-title: CodeLens
-emoji: "🔎"
-colorFrom: orange
-colorTo: blue
-sdk: docker
-app_port: 7860
-pinned: false
----
-
 # CodeLens
 
 CodeLens is a repository analysis workspace for understanding code structure faster. It indexes a local or GitHub repository, extracts functions, builds a call graph, stores retrieval data, and then lets you explore the project through grounded explanations, search, impact inspection, dead-code review, and file-focused AI help.
