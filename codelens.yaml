@@ -1,0 +1,25 @@
+data_dir: .codelens
+chroma_path: .codelens/chroma
+graph_path: .codelens/graph.json
+functions_path: .codelens/functions.json
+cache_path: .codelens/embed_cache.json
+model_name: sentence-transformers/all-MiniLM-L6-v2
+anthropic_model: claude-sonnet-4-20250514
+max_depth: 3
+llm:
+  providers:
+    - name: groq
+      model: llama-3.1-8b-instant
+      env_key: GROQ_API_KEY
+    - name: openrouter
+      model: meta-llama/llama-3.1-8b-instruct:free
+      env_key: OPENROUTER_API_KEY
+    - name: ollama
+      model: codellama
+      base_url: http://localhost:11434
+
+multirag:
+  query_expansion: true
+  hyde: true
+  top_k: 8
+  mmr_lambda: 0.5

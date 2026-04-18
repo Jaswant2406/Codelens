@@ -1,0 +1,12 @@
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+.codelens/
+.codelens-test/
+pytest-cache-files-*/
+ui/dist/
