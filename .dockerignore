@@ -1,0 +1,12 @@
+.git
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.codelens
+.codelens-test
+build
+dist
+ui/node_modules
+ui/dist
+pytest-cache-files-*
