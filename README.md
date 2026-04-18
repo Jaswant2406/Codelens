@@ -7,6 +7,32 @@ CodeLens is a repository analysis workspace for understanding code structure fas
 - GitHub: [https://github.com/Jaswant2406/Codelens](https://github.com/Jaswant2406/Codelens)
 - Hugging Face Space: [https://huggingface.co/spaces/jaswant2406/codelens](https://huggingface.co/spaces/jaswant2406/codelens)
 
+## Screenshots
+
+### Indexed repository with Ask + Code preview
+
+![Indexed Ask view](docs/screenshots/indexed-ask.png)
+
+### Ask tab
+
+![Ask tab](docs/screenshots/ask-empty.png)
+
+### AI tab
+
+![AI tab](docs/screenshots/ai-tab.png)
+
+### Search tab
+
+![Search tab](docs/screenshots/search-tab.png)
+
+### Inspect tab
+
+![Inspect tab](docs/screenshots/inspect-tab.png)
+
+### Dead code tab
+
+![Dead code tab](docs/screenshots/dead-code-tab.png)
+
 ## What CodeLens does
 
 After indexing a repository, CodeLens can:
@@ -115,12 +141,12 @@ tests/   Test suite
 
 Important files:
 
-- `api/main.py` — FastAPI application and routes
-- `cli/main.py` — CLI commands
-- `core/service.py` — main orchestration layer
-- `codelens.yaml` — local configuration
-- `Dockerfile` — container build for deployment
-- `render.yaml` — Render blueprint
+- `api/main.py` - FastAPI application and routes
+- `cli/main.py` - CLI commands
+- `core/service.py` - main orchestration layer
+- `codelens.yaml` - local configuration
+- `Dockerfile` - container build for deployment
+- `render.yaml` - Render blueprint
 
 ## Local development
 
