@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codelens"
+version = "0.1.0"
+description = "Codebase analysis and explanation toolkit"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "anthropic>=0.53.0",
+  "chromadb>=1.0.0",
+  "faiss-cpu",
+  "fastapi>=0.115.0",
+  "gitpython>=3.1.43",
+  "google-genai>=1.0.0",
+  "networkx>=3.4",
+  "httpx>=0.27.0",
+  "rank-bm25>=0.2.2",
+  "tree-sitter-languages>=1.10.2",
+  "pyyaml>=6.0.2",
+  "sentence-transformers>=3.0.1",
+  "tree-sitter<0.23",
+  "tqdm>=4.66.0",
+  "typer>=0.12.3",
+  "uvicorn>=0.30.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx>=0.28.0",
+  "pytest>=8.3.0",
+]
+
+[project.scripts]
+codelens = "cli.main:app"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[tool.setuptools.packages.find]
+include = ["api*", "cli*", "core*"]

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  color: #111827;
+  background: #F5F5F5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #F5F5F5;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
