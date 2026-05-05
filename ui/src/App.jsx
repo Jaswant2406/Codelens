@@ -1103,12 +1103,6 @@ export default function App() {
         </div>
 
         <div className={styles.topbarRight}>
-          <button className={styles.ghostButton} type="button">
-            Docs
-          </button>
-          <button className={styles.ghostButton} type="button">
-            Settings
-          </button>
           <button className={styles.avatarButton} type="button" aria-label="Workspace profile">
             CL
           </button>
