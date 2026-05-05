@@ -11,27 +11,27 @@ CodeLens is a repository analysis workspace for understanding code structure fas
 
 ### Indexed repository with Ask + Code preview
 
-![Indexed Ask view](docs/screenshots/indexed-ask.png)
+![Indexed Ask view](docs/screenshots/Screenshot%202026-05-05%20191113.png)
 
 ### Ask tab
 
-![Ask tab](docs/screenshots/ask-empty.png)
+![Ask tab](docs/screenshots/Screenshot%202026-05-05%20191349.png)
 
 ### AI tab
 
-![AI tab](docs/screenshots/ai-tab.png)
+![AI tab](docs/screenshots/Screenshot%202026-05-05%20191130.png)
 
 ### Search tab
 
-![Search tab](docs/screenshots/search-tab.png)
+![Search tab](docs/screenshots/Screenshot%202026-05-05%20191142.png)
 
 ### Inspect tab
 
-![Inspect tab](docs/screenshots/inspect-tab.png)
+![Inspect tab](docs/screenshots/Screenshot%202026-05-05%20191156.png)
 
 ### Dead code tab
 
-![Dead code tab](docs/screenshots/dead-code-tab.png)
+![Dead code tab](docs/screenshots/Screenshot%202026-05-05%20191205.png)
 
 ## What CodeLens does
 
