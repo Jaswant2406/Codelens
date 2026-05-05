@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: codelens
+    runtime: docker
+    plan: free
+    autoDeploy: true
